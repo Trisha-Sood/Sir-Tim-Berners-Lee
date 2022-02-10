@@ -3,20 +3,26 @@ body{
     padding-top:800px;
     text-align:center;
 }
+.contact_1 a {
+    color:aliceblue;
+    text-shadow:none;
+}
+.contact_1 h3{
+    display:inline;
+    
+}
 .profile{
     width:175px;
     margin-bottom:50px; 
     border-radius:50%; 
 }
 #welcome{
-    position:absolute; 
-    height:800px;
-    color:chocolate;
+height:800px;
+    color:forestgreen;
     top:0;
     left:0;
     right:0;
     bottom:0;
-    opacity:0.6;
     background:linear-gradient(#cc0631 0%,#00ff8c 100%,#5900ff 50% );
     display: table;
     width:100%;
@@ -61,32 +67,45 @@ p{
     text-align:center;
     vertical-align:middle;
 }
-.menu{
+.my_nav_bar{
     list-style:none;
     font-family:sans-serif;
-    position:absolute;
-    top:10px;
-    right:30px;
-    z-index:10;
+    position:sticky;
+    top:0px;
+    z-index:99999;
     cursor:pointer;
+    width:100%;
 }
 .links{
-    float:left;
+    display:inline;
     color:black;
-    padding-top:5px;
-    padding-left:9px;
-    padding-right:9px; 
-    padding-bottom:5px;
+    padding-top:15px;
+    padding-left:33px;
+    padding-right:25px; 
+    padding-bottom:15px;
     font-family:fantasy;
     font-size:20px;
 }
 .links:hover{
- background-color:darkcyan;   
+    text-decoration: underline;
+    font-size: 25px;
     
 }
 a{
     text-decoration:none;
+    color:firebrick;
+    text-shadow: 10px 9px gainsboro;
 }
 .news:hover{
     color:#7f08ff; 
+}
+#Article a{
+    text-shadow:none !important;
+    text-decoration:underline !important;
+    color:coral !important;
+  
+}
+#contact{
+    background:#a6ff00; 
+    
 }
